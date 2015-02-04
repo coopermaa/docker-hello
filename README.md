@@ -17,3 +17,15 @@ Once the Automated Build is configured it will automatically trigger a build and
  in a few minutes, you should see your new Automated Build on the Docker Hub Registry.
  It will stay in sync with your GitHub and BitBucket repository until you deactivate
  the Automated Build.
+
+## How to use this image:
+
+Just pull the image from Docker Hub:
+
+    $ docker pull coopermaa/docker-hello
+
+And run a container:
+
+    $ docker run coopermaa/docker-hello
+
+    Hello from Docker.
